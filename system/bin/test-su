@@ -1,0 +1,16 @@
+echo "hello"
+sleep 2
+echo "vou deixar seu root 100% bom"
+setenforce 0 
+sleep 1
+echo "legal!"
+sleep 1
+echo "oq você tem aí?"
+sleep 1
+touch /sdcard/ls.log
+ls >> /sdcard/ls.log
+ls
+sleep 2
+echo "salvei o ls em /sdcard/ls.log"
+sleep 1 
+echo "tchau!"
